@@ -69,26 +69,33 @@
 
 <div class="row">
     <div class="small-12 medium-8 large-8 columns">
- 
-<div class="panel show-for-small-only">
-	<div id="cbe76c00002a98158246e94549b7eb"></div>
-	<script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
-	<script type="text/javascript">try{f_cbload("e76c00002a98158246e94549b7eb","http:");}catch(v_e){;}</script>
-	<div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c00002a98158246e94549b7eb">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-</div>
+	 	<div class="panel">
+			<h2>2015 parties coming soon!</h2>
+	 		<p>Check back in mid-February for our super awesome database.</p>
+	 	</div>
 
-<div class="panel show-for-medium-up">
-	<div id="cbe76c0000a03a73895e504aa68b9f"></div>
-	<script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
-	<script type="text/javascript">try{f_cbload("e76c0000a03a73895e504aa68b9f","http:");}catch(v_e){;}</script>
-	<div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c0000a03a73895e504aa68b9f">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+		<!--
+		<div class="panel show-for-small-only">
+			<div id="cbe76c00002a98158246e94549b7eb"></div>
+			<script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
+			<script type="text/javascript">try{f_cbload("e76c00002a98158246e94549b7eb","http:");}catch(v_e){;}</script>
+			<div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c00002a98158246e94549b7eb">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+		</div>
+
+		<div class="panel show-for-medium-up">
+			<div id="cbe76c0000a03a73895e504aa68b9f"></div>
+			<script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
+			<script type="text/javascript">try{f_cbload("e76c0000a03a73895e504aa68b9f","http:");}catch(v_e){;}</script>
+			<div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c0000a03a73895e504aa68b9f">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+		</div>
+		-->
 	</div>
-</div>
-
 	<div class="medium-4 large-4 columns">
+	<!--
 	<a href="http://rockthelot.austin360.cmg-labs.com/" target="_blank"><img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529" /></a>
 	<br>
 	<br>
+	-->
 		<?php include "about.php";?>
 	</div>
 </div>

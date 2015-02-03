@@ -69,15 +69,15 @@
 </div>
 
 <div class="row">
-    <div class="small-12 medium-6 large-6 columns">
-		<div id="cbe76c000014aff05062c647cda861"></div>
-		<script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
-		<script type="text/javascript">try{f_cbload("e76c000014aff05062c647cda861","http:");}catch(v_e){;}</script>
-		<div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c000014aff05062c647cda861">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-		<?php include "about.php";?>
+    <div class="small-12 medium-8 large-8 columns"> <!-- changed from medium-6 and large-6 -->
+		<div class="panel">
+			<h2>2015 side parties coming soon!</h2>
+			<p>Check back in mid-February for our super awesome database.</p>
+		</div>
 	</div>
-	<div class="medium-6 large-6 columns">
-	<a href="http://rockthelot.austin360.cmg-labs.com/" target="_blank"><img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529" /></a>
+	<div class="medium-4 large-4 columns">
+		<?php include "about.php";?>
+
 	</div>
 </div>
 

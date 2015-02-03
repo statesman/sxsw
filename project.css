@@ -1,0 +1,13 @@
+#pagetitle {font-family: 'Alfa Slab One', cursive; color:white;}
+body {background-color: black;}
+.cmFooterTerms .text-center {color: white;}
+@media only screen and (max-width: 40em) {
+	#back {background-image: url('http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/600/img/photos/2014/02/06/e7/7a/jwj-2013-SXSW-Day-Five-00258bs.jpg'); background-repeat: no-repeat;max-width: 100%;}
+}
+@media only screen and (min-width: 40.063em) {
+	#back {background-image: url('http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/1024/img/photos/2014/02/06/e7/7a/jwj-2013-SXSW-Day-Five-00258bs.jpg'); background-repeat: no-repeat;max-width: 100%;}
+}
+@media only screen and (min-width: 64.063em) {
+	#back {background-image: url('http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/2400/img/photos/2014/02/06/e7/7a/jwj-2013-SXSW-Day-Five-00258bs.jpg'); background-repeat: no-repeat;max-width: 100%;}
+}
+.button {a.link color: white;}

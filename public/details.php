@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+  <?php session_start(); ?>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
@@ -64,17 +65,14 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h1>SXSW side parties</h1>
+      <h1>SXSW side parties details</h1>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12 col-lg-8">
-          <div class="panel panel-default">
-            <div class="panel-body">
-            <div class="visible-xs">This is the small search box</div>
-            <div class="hidden-xs">This is the large box</div>
-            </div>
-          </div>
+    <!-- Begin Caspio Deploy Code (for inserting in body) -->
+    <?php require_once('dist/dpload.txt');dpload('http://bridge.caspio.net/','e76c000050d64f8430914520a644','i');?>
+    <!-- End Caspio Deploy Code --><br>
       </div>
       <div class="col-xs-12 col-lg-4">
         <img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529">

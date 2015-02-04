@@ -53,6 +53,14 @@ module.exports = function(grunt) {
       }
     },
 
+    // Lint our Bootstrap usage
+    bootlint: {
+      options: {
+        relaxerror: ['W005']
+      },
+      files: 'public/**.php',
+    },
+
     // Watch for changes in LESS and JavaScript files,
     // relint/retranspile when a file changes
     watch: {
@@ -97,7 +105,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-ftpush');
+  grunt.loadNpmTasks('grunt-bootlint');
 
-  grunt.registerTask('default', ['copy', 'less', 'jshint','uglify']);
+  grunt.registerTask('default', ['copy', 'less', 'jshint','bootlint','uglify']);
 
 };

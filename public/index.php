@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <?php
   $meta = array(
     "title" => "2014 SXSW Side Parties | Austin360",
@@ -63,11 +63,18 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h4>LABEL</h4>
-      <h1>Main headline</h1>
+      <h1>SXSW side parties</h1>
       <p><small>byline test</small></p>
       <p>Intro text</p>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12"></div>
     </div>
 
 

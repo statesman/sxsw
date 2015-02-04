@@ -26,11 +26,8 @@ $RECYCLE.BIN/
 
 # Grunt modules
 node_modules
+.ftppass
+.grunt/
 
 ### Bower ###
 bower_components
-
-### Publishing Specifice ###
-.ftppass
-.grunt/
-public

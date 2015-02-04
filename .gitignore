@@ -33,3 +33,4 @@ bower_components
 ### Publishing Specifice ###
 .ftppass
 .grunt/
+public

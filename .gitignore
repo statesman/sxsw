@@ -23,8 +23,6 @@ $RECYCLE.BIN/
 ### grunt ###
 # Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
 .tmp/
-.ftppass
-.grunt
 
 # Grunt modules
 node_modules
@@ -32,3 +30,6 @@ node_modules
 ### Bower ###
 bower_components
 
+### Publishing Specifice ###
+.ftppass
+.grunt/

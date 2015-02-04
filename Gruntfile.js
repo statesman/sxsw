@@ -51,9 +51,26 @@ module.exports = function(grunt) {
           ]
         }
       }
+    },
+
+    // Watch for changes in LESS and JavaScript files,
+    // relint/retranspile when a file changes
+    watch: {
+      options: {
+        livereload: true
+      },
+      markup: {
+        files: ['public/*.php']
+      },
+      scripts: {
+        files: ['src/js/**.js'],
+        tasks: ['jshint', 'uglify']
+      },
+      styles: {
+        files: ['src/less/**.less'],
+        tasks: ['less']
+      }
     }
-
-
 
 
   });
@@ -63,6 +80,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['copy', 'less', 'jshint','uglify']);
 

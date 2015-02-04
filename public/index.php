@@ -65,7 +65,7 @@
       <div class="col-lg-12 header">
       <h4>LABEL</h4>
       <h1>Main headline</h1>
-      <p><small>byline</small></p>
+      <p><small>byline test</small></p>
       <p>Intro text</p>
       </div>
     </div>
@@ -85,7 +85,9 @@
 
     <script src="dist/scripts.js"></script>
 
-
+  <?php if($_SERVER['SERVER_NAME'] === 'localhost'): ?>
+    <script src="//localhost:35729/livereload.js"></script>
+  <?php endif; ?>
 
 </body>
 </html>

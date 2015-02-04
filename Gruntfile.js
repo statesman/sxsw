@@ -70,6 +70,21 @@ module.exports = function(grunt) {
         files: ['src/less/**.less'],
         tasks: ['less']
       }
+    },
+
+    ftpush: {
+      build: {
+        auth: {
+          host: 'host.coxmediagroup.com',
+          port: 21,
+          authKey: 'key1'
+        },
+        src: 'public',
+        dest: '/stage_aas/projects/sxsw',
+        exclusions: ['dist/tmp'],
+        simple: false,
+        useList: false
+      }
     }
 
 
@@ -81,6 +96,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-ftpush');
 
   grunt.registerTask('default', ['copy', 'less', 'jshint','uglify']);
 

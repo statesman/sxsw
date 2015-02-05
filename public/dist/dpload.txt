@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 /**
 * (c) Copyright 2010 Caspio, Inc. All rights reserved.

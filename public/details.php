@@ -93,9 +93,7 @@
       
       <!-- poster pulled in through script -->
       <div id="poster"></div>
-
-
-        <br> <!-- rock the lot promo -->
+        <!-- rock the lot promo -->
         <img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529">
       </div>
     </div>
@@ -120,7 +118,7 @@
 //BUILD POSTER PULLING VARS FROM CASPIO
   var output; 
   if (Poster_Image_URL != "") { 
-   output = "<img class=\"detailmug\" src=\"http:\/\/media.cmgdigital.com\/shared\/lt\/lt_cache\/thumbnail\/600" + Poster_Image_URL + "\"  width=\"300\" height=\"300\" alt=\"" + Event_Name + "\" \/>"; 
+   output = "<div><img class=\"detailmug\" src=\"http:\/\/media.cmgdigital.com\/shared\/lt\/lt_cache\/thumbnail\/600" + Poster_Image_URL + "\"  width=\"300\" height=\"300\" alt=\"" + Event_Name + "\" \/><\/div><br>"; 
  } 
  $('#poster').html(output);
 </script> 

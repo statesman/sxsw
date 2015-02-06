@@ -23,7 +23,7 @@ module.exports = function(grunt) {
       prod: {
         options: {
           compress: true,
-          cleancss: true
+          cleancss: false
         },
         files: {
           "public/dist/style.css": "src/less/style.less"
@@ -47,6 +47,9 @@ module.exports = function(grunt) {
         files: {
           'public/dist/scripts.js': [
             'bower_components/jquery/dist/jquery.js',
+            'bower_components/bootstrap/js/collapse.js',
+            'bower_components/bootstrap/js/transition.js',
+            'bower_components/bootstrap/js/dropdown.js',
             'src/js/main.js'
           ]
         }

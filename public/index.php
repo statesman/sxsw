@@ -46,32 +46,29 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
         <a class="navbar-brand" href="http://www.austin360.com/" target="_blank">
           <img width="122" height="50" src="assets/logo_austin360_color.png">
         </a>
-      </div>
-      <!--
-       http://getbootstrap.com/examples/navbar/
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="./">Link <span class="sr-only">(current)</span></a></li>
-          <li><a href="search.php">Link</a></li>
-        </ul>
-      </div>
-      -->
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./">Quick Search <span class="sr-only">(current)</span></a></li>
+        <li><a href="search.php">Advanced Search</a></li>
+      </ul>
        <ul class="nav navbar-nav navbar-right social hidden-xs">
           <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
           <li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a></li>
           <li><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
         </ul>
     </div>
-
-
+  </div>
 </nav>
-  </nav>
+
 
   <div class="container">
     <div class="row">

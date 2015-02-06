@@ -46,6 +46,7 @@
 
 </head>
 <body>
+
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -71,31 +72,19 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h1>SXSW side parties</h1>
+      <h1>SXSW side parties advanced search</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-lg-12">
-          <div class="panel panel-default">
-            <div class="panel-body">
-            <div class="visible-xs">
-            This is small: Swap with 2015 data <br>
-              <div id="cbe76c000069a8ed71d23b4c63821c"></div>
-              <script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
-              <script type="text/javascript">try{f_cbload("e76c000069a8ed71d23b4c63821c","http:");}catch(v_e){;}</script>
-              <div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c000069a8ed71d23b4c63821c">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-            </div>
-            <div class="hidden-xs">
-            This is the plus screen. Swap with 2015 data<br>  
-              <div id="cbe76c0000b8288d4f068d426bb094"></div>
-              <script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
-              <script type="text/javascript">try{f_cbload("e76c0000b8288d4f068d426bb094","http:");}catch(v_e){;}</script>
-              <div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c0000b8288d4f068d426bb094">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-              </div>
-
-            </div>
-            </div>
-          </div>
+      <div class="col-xs-12 col-lg-8">
+            <p>Will need 2015 version.....</p>
+            <div id="cbe76c0000ae4003e0a29c41838db2"><!-- 2015 version --></div>
+            <script type="text/javascript" src="http://b1.caspio.com/scripts/e1.js"></script>
+            <script type="text/javascript">try{f_cbload("e76c0000ae4003e0a29c41838db2","http:");}catch(v_e){;}</script>
+            <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000ae4003e0a29c41838db2">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+     </div>
+      <div class="col-xs-12 col-lg-4">
+        <img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529">
       </div>
     </div>
 

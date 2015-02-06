@@ -4,7 +4,7 @@
 <?php session_start(); ?>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <?php
+<?php
   $meta = array(
     "title" => "2014 SXSW Side Parties | Austin360",
     "description" => "Welcome to Austin360's 2014 SXSW Side Parties database. Here, you'll find hundreds of unofficial showcases, side parties and day shows that don't require a SXSW badge during SXSW Interactive, Film and Music.",
@@ -47,6 +47,7 @@
   <?php include "includes/advertising.inc"; ?>
   <?php include "includes/metrics-head.inc"; ?>
 
+
 </head>
 <body>
   <nav class="navbar navbar-default">
@@ -80,11 +81,21 @@
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+
+    <!-- 2015 deploy pointing to 2014 data -->
+
     <!-- Begin Caspio Deploy Code (for inserting in body) -->
-    <?php require_once('dist/dpload.txt');dpload('http://bridge.caspio.net/','e76c000050d64f8430914520a644','i');?>
-    <!-- End Caspio Deploy Code --><br>
-      </div>
+    <?php require_once('dist/dpload.txt');dpload('http://bridge.caspio.net/','e76c0000bdcfcaa3ea914f72925c','i');?>
+    <!-- End Caspio Deploy Code -->
+
+    </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      
+      <!-- poster pulled in through script -->
+      <div id="poster"></div>
+
+
+        <br> <!-- rock the lot promo -->
         <img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529">
       </div>
     </div>
@@ -103,6 +114,17 @@
     <?php include "includes/metrics.inc"; ?>
 
     <script src="dist/scripts.js"></script>
+
+
+<script type="text/javascript">
+//BUILD POSTER PULLING VARS FROM CASPIO
+  var output; 
+  if (Poster_Image_URL != "") { 
+   output = "<img class=\"detailmug\" src=\"http:\/\/media.cmgdigital.com\/shared\/lt\/lt_cache\/thumbnail\/600" + Poster_Image_URL + "\"  width=\"300\" height=\"300\" alt=\"" + Event_Name + "\" \/>"; 
+ } 
+ $('#poster').html(output);
+</script> 
+
 
 </div>
   <?php if($_SERVER['SERVER_NAME'] === 'localhost'): ?>

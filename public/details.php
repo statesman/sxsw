@@ -40,6 +40,8 @@
   <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,300italic,400italic,700italic,700,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+
 
   <?php /* CMG advertising and analytics */ ?>
   <?php include "includes/advertising.inc"; ?>
@@ -67,21 +69,22 @@
       </div>
     </div>
   </nav>
+<div id="back">
 
 
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h1>SXSW side parties details</h1>
+      <h3 id="pagetitle">SXSW side parties details</h3>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-lg-8">
+      <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
     <!-- Begin Caspio Deploy Code (for inserting in body) -->
     <?php require_once('dist/dpload.txt');dpload('http://bridge.caspio.net/','e76c000050d64f8430914520a644','i');?>
     <!-- End Caspio Deploy Code --><br>
       </div>
-      <div class="col-xs-12 col-lg-4">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529">
       </div>
     </div>
@@ -101,6 +104,7 @@
 
     <script src="dist/scripts.js"></script>
 
+</div>
   <?php if($_SERVER['SERVER_NAME'] === 'localhost'): ?>
     <script src="//localhost:35729/livereload.js"></script>
   <?php endif; ?>

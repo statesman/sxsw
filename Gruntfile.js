@@ -47,14 +47,17 @@ module.exports = function(grunt) {
         files: {
           'public/dist/scripts.js': [
             'bower_components/jquery/dist/jquery.js',
+            'bower_components/bootstrap/js/button.js',
             'bower_components/bootstrap/js/collapse.js',
-            'bower_components/bootstrap/js/transition.js',
             'bower_components/bootstrap/js/dropdown.js',
+            'bower_components/bootstrap/js/transition.js',
             'src/js/main.js'
           ]
         }
       }
     },
+
+// jqury, button, collapse, transition, dropdown
 
     // Lint our Bootstrap usage
     bootlint: {
@@ -78,7 +81,7 @@ module.exports = function(grunt) {
         tasks: ['jshint', 'uglify']
       },
       styles: {
-        files: ['src/less/**.less'],
+        files: ['src/less/**.less','src/less/custom-bootstrap/**.less'],
         tasks: ['less']
       }
     },

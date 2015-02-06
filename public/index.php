@@ -39,6 +39,8 @@
   <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,300italic,400italic,700italic,700,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+
 
   <?php /* CMG advertising and analytics */ ?>
   <?php include "includes/advertising.inc"; ?>
@@ -73,22 +75,23 @@
     </div>
   </div>
 </nav>
+<div id="back">
 
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h1>SXSW side parties</h1>
+      <h1 id="pagetitle">SXSW Side Parties</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-lg-8">
-            <p>Will need 2015 version.....</p>
+      <div class="col-xs-12 col-lg-6">
             <div id="cbe76c0000ae4003e0a29c41838db2"><!-- 2015 version --></div>
             <script type="text/javascript" src="http://b1.caspio.com/scripts/e1.js"></script>
             <script type="text/javascript">try{f_cbload("e76c0000ae4003e0a29c41838db2","http:");}catch(v_e){;}</script>
             <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000ae4003e0a29c41838db2">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+        <?php include "includes/about.inc";?>
      </div>
-      <div class="col-xs-12 col-lg-4">
+      <div class="col-xs-12 col-lg-6">
         <img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529">
       </div>
     </div>
@@ -108,9 +111,10 @@
 
     <script src="dist/scripts.js"></script>
 
+</div>
+
   <?php if($_SERVER['SERVER_NAME'] === 'localhost'): ?>
     <script src="//localhost:35729/livereload.js"></script>
   <?php endif; ?>
-
 </body>
 </html>

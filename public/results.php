@@ -87,12 +87,10 @@
             </div>
             <div class="hidden-xs">
             This is the plus screen. Swap with 2015 data<br>  
-              <div id="cbe76c0000b8288d4f068d426bb094"></div>
-              <script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
-              <script type="text/javascript">try{f_cbload("e76c0000b8288d4f068d426bb094","http:");}catch(v_e){;}</script>
-              <div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c0000b8288d4f068d426bb094">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-              </div>
-
+              <div id="cbe76c0000a71b36715f6f4114a3b8"></div>
+              <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
+              <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c0000a71b36715f6f4114a3b8");}catch(v_e){;}</script>
+              <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000a71b36715f6f4114a3b8">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
             </div>
             </div>
           </div>

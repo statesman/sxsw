@@ -74,14 +74,14 @@ module.exports = function(grunt) {
         livereload: true
       },
       markup: {
-        files: ['public/*.php']
+        files: ['public/*.php','public/includes/*.inc']
       },
       scripts: {
-        files: ['src/js/**.js'],
+        files: ['src/js/*.js'],
         tasks: ['jshint', 'uglify']
       },
       styles: {
-        files: ['src/less/**.less','src/less/custom-bootstrap/**.less'],
+        files: ['src/less/**/*.less'],
         tasks: ['less']
       }
     },

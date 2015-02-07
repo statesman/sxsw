@@ -84,14 +84,14 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="col-xs-12 col-sm-6">
             <div id="cbe76c0000ae4003e0a29c41838db2"><!-- 2015 version --></div>
             <script type="text/javascript" src="http://b1.caspio.com/scripts/e1.js"></script>
             <script type="text/javascript">try{f_cbload("e76c0000ae4003e0a29c41838db2","http:");}catch(v_e){;}</script>
             <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000ae4003e0a29c41838db2">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
         <?php include "includes/about.inc";?>
      </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="col-xs-12 col-sm-6">
         <?php include "includes/promo.inc"; ?>
       </div>
     </div>

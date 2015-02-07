@@ -86,16 +86,16 @@
       </div>
     </div>
     <div class="row">
-      <div id="details" class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
-
+      <div id="details" class="col-xs-12 col-sm-6 col-md-8">
+        <div>
     <!-- 2015 deploy pointing to 2014 data -->
 
     <!-- Begin Caspio Deploy Code (for inserting in body) -->
     <?php require_once('dist/dpload.txt');dpload('http://bridge.caspio.net/','e76c0000bdcfcaa3ea914f72925c','i');?>
     <!-- End Caspio Deploy Code -->
-
+        </div>
     </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <div class="col-xs-12 col-sm-6 col-md-4">
         <!-- poster pulled in through script -->
         <div id="poster"></div>
         <?php include "includes/promo.inc"; ?>
@@ -122,7 +122,7 @@
 //BUILD POSTER PULLING VARS FROM CASPIO
   var output; 
   if (Poster_Image_URL != "") { 
-   output = "<img id=\"poster\" src=\"http:\/\/media.cmgdigital.com\/shared\/lt\/lt_cache\/thumbnail\/600" + Poster_Image_URL + "\"  width=\"300\" alt=\"" + Event_Name + "\" \/><br><br>"; 
+   output = "<img id=\"poster\" class=\"img-responsive\" src=\"http:\/\/media.cmgdigital.com\/shared\/lt\/lt_cache\/thumbnail\/600" + Poster_Image_URL + "\"  width=\"300\" alt=\"" + Event_Name + "\" \/><br><br>"; 
  } 
  $('#poster').html(output);
 </script> 

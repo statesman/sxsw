@@ -86,7 +86,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+      <div id="details" class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
 
     <!-- 2015 deploy pointing to 2014 data -->
 

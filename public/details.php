@@ -50,28 +50,34 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-          <a class="navbar-brand" href="http://www.austin360.com/" target="_blank">
-            <img width="122" height="50" src="assets/logo_austin360_color.png">
-          </a>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="./">Quick Search <span class="sr-only">(current)</span></a></li>
-          <li><a href="search.php">Advanced Search</a></li>
-        </ul>
-         <ul class="nav navbar-nav navbar-right social hidden-xs">
-            <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
-            <li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a></li>
-            <li><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
-          </ul>
-      </div>
-    </div>
-  </nav>
-<div id="back">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
+        <a class="navbar-brand" href="http://www.austin360.com/" target="_blank">
+          <img width="122" height="50" src="assets/logo_austin360_color.png">
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./">Quick Search <span class="sr-only">(current)</span></a></li>
+        <li><a href="search.php">Advanced Search</a></li>
+      </ul>
+        <ul class="nav navbar-nav navbar-right social hidden-xs">
+          <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a></li>
+          <li><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<div id="back">
 
   <div class="container">
     <div class="row">
@@ -90,11 +96,9 @@
 
     </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-      
-      <!-- poster pulled in through script -->
-      <div id="poster"></div>
-        <!-- rock the lot promo -->
-        <img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529">
+        <!-- poster pulled in through script -->
+        <div id="poster"></div>
+        <?php include "includes/promo.inc"; ?>
       </div>
     </div>
 
@@ -118,7 +122,7 @@
 //BUILD POSTER PULLING VARS FROM CASPIO
   var output; 
   if (Poster_Image_URL != "") { 
-   output = "<div><img class=\"detailmug\" src=\"http:\/\/media.cmgdigital.com\/shared\/lt\/lt_cache\/thumbnail\/600" + Poster_Image_URL + "\"  width=\"300\" height=\"300\" alt=\"" + Event_Name + "\" \/><\/div><br>"; 
+   output = "<img id=\"poster\" src=\"http:\/\/media.cmgdigital.com\/shared\/lt\/lt_cache\/thumbnail\/600" + Poster_Image_URL + "\"  width=\"300\" alt=\"" + Event_Name + "\" \/><br><br>"; 
  } 
  $('#poster').html(output);
 </script> 

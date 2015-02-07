@@ -92,7 +92,7 @@
         <?php include "includes/about.inc";?>
      </div>
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529">
+        <?php include "includes/promo.inc"; ?>
       </div>
     </div>
 

@@ -84,15 +84,16 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-lg-12">
+      <div class="col-xs-12">
           <div class="panel panel-default">
             <div class="panel-body">
             <div class="visible-xs">
-              This is small: 2015 deployment with 2014 data <br>
+              This is small: 2015 deployment with 2014 data<br>
               <div id="cbe76c0000eb634d1defea40a890bc"></div>
               <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
               <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c0000eb634d1defea40a890bc");}catch(v_e){;}</script>
               <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000eb634d1defea40a890bc">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+
             </div>
             <div class="hidden-xs">
             This is the plus screen. 2015 deployment pointing to 2014 data<br>  

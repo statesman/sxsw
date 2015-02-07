@@ -39,6 +39,8 @@
   <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,300italic,400italic,700italic,700,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+
 
   <?php /* CMG advertising and analytics */ ?>
   <?php include "includes/advertising.inc"; ?>
@@ -46,45 +48,63 @@
 
 </head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-          <a class="navbar-brand" href="http://www.austin360.com/" target="_blank">
-            <img width="122" height="50" src="assets/logo_austin360_color.png">
-          </a>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="./">Quick Search <span class="sr-only">(current)</span></a></li>
-          <li><a href="search.php">Advanced Search</a></li>
-        </ul>
-         <ul class="nav navbar-nav navbar-right social hidden-xs">
-            <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
-            <li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a></li>
-            <li><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
-          </ul>
-      </div>
+        <a class="navbar-brand" href="http://www.austin360.com/" target="_blank">
+          <img width="122" height="50" src="assets/logo_austin360_color.png">
+        </a>
     </div>
-  </nav>
-
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="./">Quick Search <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="search.php">Advanced Search</a></li>
+      </ul>
+        <ul class="nav navbar-nav navbar-right social hidden-xs">
+          <li><a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a></li>
+          <li><a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<div id="back">
 
   <div class="container">
     <div class="row">
       <div class="col-lg-12 header">
-      <h1>SXSW side parties advanced search</h1>
+      <h1 id="pagetitle">SXSW Side Parties</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-lg-8">
-            <p>Will need 2015 version.....</p>
-            <div id="cbe76c0000ae4003e0a29c41838db2"><!-- 2015 version --></div>
-            <script type="text/javascript" src="http://b1.caspio.com/scripts/e1.js"></script>
-            <script type="text/javascript">try{f_cbload("e76c0000ae4003e0a29c41838db2","http:");}catch(v_e){;}</script>
-            <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c0000ae4003e0a29c41838db2">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+      <div class="col-xs-12 col-sm-6">
+
+          <span style="color: white;">2015 deployment with 2014 data</span></br>
+          <div id="details">
+            <div class="visible-xs"><span style="color: white;">xs</span><br>
+            <div id="cbe76c000021658163a780465ba8e3"></div>
+            <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
+            <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c000021658163a780465ba8e3");}catch(v_e){;}</script>
+            <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c000021658163a780465ba8e3">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+            </div>
+            <div class="hidden-xs"><span style="color: white;">bigger</span><br>
+              <div id="cbe76c00003686656895f94a2bb59a"></div>
+              <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
+              <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c00003686656895f94a2bb59a");}catch(v_e){;}</script>
+              <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c00003686656895f94a2bb59a">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
+            </div>
+        </div>
+        <?php include "includes/about.inc";?>
      </div>
-      <div class="col-xs-12 col-lg-4">
-        <img style="border: white solid 3px" src="http://pagead2.googlesyndication.com/simgad/10245945627370330529">
+      <div class="col-xs-12 col-sm-6">
+        <?php include "includes/promo.inc"; ?>
       </div>
     </div>
 
@@ -103,9 +123,10 @@
 
     <script src="dist/scripts.js"></script>
 
+</div>
+
   <?php if($_SERVER['SERVER_NAME'] === 'localhost'): ?>
     <script src="//localhost:35729/livereload.js"></script>
   <?php endif; ?>
-
 </body>
 </html>

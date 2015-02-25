@@ -85,16 +85,14 @@
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-6">
-
-          <span style="color: white;">2015 deployment with 2014 data</span></br>
           <div id="details">
-            <div class="visible-xs"><span style="color: white;">xs</span><br>
+            <div class="visible-xs">
             <div id="cbe76c000021658163a780465ba8e3"></div>
             <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
             <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c000021658163a780465ba8e3");}catch(v_e){;}</script>
             <div id="cxkg"><a href="http://b1.caspio.com/dp.asp?AppKey=e76c000021658163a780465ba8e3">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
             </div>
-            <div class="hidden-xs"><span style="color: white;">bigger</span><br>
+            <div class="hidden-xs">
               <div id="cbe76c00003686656895f94a2bb59a"></div>
               <script type="text/javascript" src="http://b1.caspio.com/scripts/embed.js"></script>
               <script type="text/javascript">try{f_cbload(false, "b1.caspio.com", "e76c00003686656895f94a2bb59a");}catch(v_e){;}</script>
@@ -115,7 +113,7 @@
     <?php /* Banner ad */ ?>
     <?php include "includes/banner-ad.inc";?>
 
-    <p id="legal" class="center-block text-center"><small>© 2015 <a href="http://www.coxmediagroup.com" target="_blank">Cox Media Group</a>. By using this website, you accept the terms of our <a href="http://www.mystatesman.com/visitor_agreement/" target="_blank">Visitor Agreement</a> and <a target="_blank" href="http://www.mystatesman.com/privacy_policy/">Privacy Policy</a>, and understand your options regarding <a target="_blank" href="http://www.mystatesman.com/privacy_policy/#ad-choices">Ad Choices</a><img src="http://media.cmgdigital.com/shared/img/photos/2012/02/29/d3/da/ad_choices_logo.png" alt="AdChoices">.</small></p>
+    <p id="legal" class="center-block text-center"><small>© <?php echo date("Y"); ?> <a href="http://www.coxmediagroup.com" target="_blank">Cox Media Group</a>. By using this website, you accept the terms of our <a href="http://www.mystatesman.com/visitor_agreement/" target="_blank">Visitor Agreement</a> and <a target="_blank" href="http://www.mystatesman.com/privacy_policy/">Privacy Policy</a>, and understand your options regarding <a target="_blank" href="http://www.mystatesman.com/privacy_policy/#ad-choices">Ad Choices</a><img src="http://media.cmgdigital.com/shared/img/photos/2012/02/29/d3/da/ad_choices_logo.png" alt="AdChoices">.</small></p>
 
     <?php /* CMG advertising and analytics */ ?>
     <?php include "includes/project-metrics.inc"; ?>

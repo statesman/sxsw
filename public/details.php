@@ -8,7 +8,7 @@
   $meta = array(
     "title" => "2014 SXSW Side Parties | Austin360",
     "description" => "Welcome to Austin360's 2014 SXSW Side Parties database. Here, you'll find hundreds of unofficial showcases, side parties and day shows that don't require a SXSW badge during SXSW Interactive, Film and Music.",
-    "thumbnail" => "http://projects.statesman.com/then-and-now/paramount/assets/share.png",
+    "thumbnail" => "http://projects.statesman.com/sxsw/assets/share.jpg",
     "url" => "http://projects.statesman.com/sxsw/",
     "twitter" => "austin360"
   );

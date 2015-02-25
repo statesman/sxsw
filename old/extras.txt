@@ -1,5 +1,0 @@
-search and report deploy
-    <div id="cbe76c0000a03a73895e504aa68b9f"></div>
-	<script type="text/javascript" src="http://bridge.caspio.net/scripts/e1.js"></script>
-	<script type="text/javascript">try{f_cbload("e76c0000a03a73895e504aa68b9f","http:");}catch(v_e){;}</script>
-	<div id="cxkg"><a href="http://bridge.caspio.net/dp.asp?AppKey=e76c0000a03a73895e504aa68b9f">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>

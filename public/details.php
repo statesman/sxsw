@@ -16,7 +16,6 @@
 
   <title>Interactive: <?php print $meta['title']; ?> | Austin American-Statesman</title>
   <link rel="shortcut icon" href="http://media.cmgdigital.com/shared/theme-assets/242014/www.austin360.com_8bc327bbc45a4eafb5625408192c5ff6.ico" />
-  <link rel="apple-touch-icon" href="http://media.cmgdigital.com/shared/theme-assets/242014/www.austin360.com_f8a58f8e57d54874ae0ca9737688ca06.png" />
 
   <link rel="canonical" href="<?php print $meta['url']; ?>" />
 
@@ -33,6 +32,11 @@
   <meta name="twitter:description" content="<?php print $meta['description']; ?>" />
   <meta name="twitter:image" content="<?php print $meta['thumbnail']; ?>" />
   <meta name="twitter:url" content="<?php print $meta['url']; ?>" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="SXSW Side Parties">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="assets/appicon.png">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="dist/style.css">
